@@ -1,0 +1,6 @@
+[theme]
+primaryColor = "#2C7A4B"               # A rich dark green for buttons, accents
+backgroundColor = "#E6F4EA"            # Light, soft greenish-white background
+secondaryBackgroundColor = "#A8D5BA"   # Medium green-gray for containers, cards
+textColor = "#1B1B1B"                  # Very dark gray (almost black) for text
+font = "sans serif"
