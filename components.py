@@ -102,8 +102,8 @@ def hero_box_ratings():
         <p style="color:#000; font-size: 1em; line-height: 1.5;">
         UDisc ratings are calculated based on 3 course-specific constants which are used to define as curve on which ratings are located.
 
-        - **c<sub>1</sub>**: Controls the curvature of the curve.
-        - **c<sub>2</sub>**: Controls the slope of the curve. This is higher for easier course to create better score separation.
+        - **c<sub>1</sub>**: Controls the curvature - high c<sub>1</sub> will increase rating penalty for low scoring and decrease rating boost for high scoring rounds. c<sub>1</sub> tends to be larger for easier courses.
+        - **c<sub>2</sub>**: Controls the slope of the curve, i.e. how many rating points gained per stroke. This is higher for easier course to create better score separation.
         - **b**: Controls the baseline rating. The baseline rating determines the rating expected to play the course in even par.
 
         The rating <em>R</em> for a round with a score of <em>s</em>, relative to par (e.g. <em>s=-2</em> for a round in 2 under par), is calculated via the quadratic equation:
